@@ -1,3 +1,4 @@
+//silly script that replaces the text in the html file with the version of the app
 window.addEventListener('DOMContentLoaded', () => {
     const replaceText = (selector, text) => {
       const element = document.getElementById(selector)

@@ -5,6 +5,7 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    // Basically add in related back-end scripts here
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
