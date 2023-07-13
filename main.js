@@ -3,8 +3,9 @@ const path = require('path')
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1280,
+    height: 720,
+    frame: true, // set to false to remove the frame
     // Basically add in related back-end scripts here
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
